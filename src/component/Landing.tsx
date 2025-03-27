@@ -1,4 +1,3 @@
-import React from "react";
 import pic from "../assets/lounge6.png";
 
 const Landing = () => {

@@ -1,4 +1,3 @@
-import React from "react";
 import pic1 from "../assets/WhatsApp Image 2025-03-26 at 11.21.23_e0fb667c.jpg";
 import pic2 from "../assets/WhatsApp Image 2025-03-26 at 11.21.58_6af15d99.jpg";
 import pic3 from "../assets/party.png";

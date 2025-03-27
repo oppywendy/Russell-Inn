@@ -1,4 +1,3 @@
-import React from "react";
 import { FaInstagramSquare } from "react-icons/fa";
 import { FaLocationDot, FaWhatsapp } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
@@ -49,9 +48,9 @@ const Contact = () => {
               width="100%"
               height="450"
               style={{ border: 0 }}
-              allowFullScreen=""
+              allowFullScreen
               loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"
+              referrerPolicy="no-referrer-when-downgrade"
             ></iframe>
           </div>
         </div>

@@ -1,4 +1,3 @@
-import React from "react";
 import pic from "../assets/IMG_5227.png";
 
 const Footer = () => {
