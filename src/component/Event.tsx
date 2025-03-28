@@ -8,34 +8,36 @@ const Event = () => {
   return (
     <div className="m-10">
       <div>
-        <h1 className="font-bold text-5xl text-center text-[#022E75] pt-10">
+        <h1 className="font-bold md:text-5xl text-3xl text-center text-[#022E75] pt-10">
           MEETINGS & EVENTS
         </h1>
-        <div className="w-[100%] flex pt-5 justify-center items-center">
-          <div className="w-[50%]">
-            <h2 className="font-semibold text-5xl w-[60%]">
+        <div className="w-[100%] flex pt-5 justify-center items-center flex-col md:flex-row">
+          <div className="md:w-[50%] w-full">
+            <h2 className="font-semibold md:text-5xl text-2xl md:w-[60%] font-sans">
               Ocassions to remember
             </h2>
-            <i className="text-3xl justify-center flex pt-10">
-              We are the perfect host for your weddings. We can make your
-              ceremonies remain timeless by redefining them with unprecedented
-              glitz and glamour. Our meeting rooms are equipped with the latest
-              audio-visual technology , fast and secured Wi-Fi and so much more.
-              Place a call with us today to explore your options.
-            </i>
-            <img className="pt-10" src={pic5} alt="" />
-            <div className="justify-center flex pt-5">
-              <button className="hover:bg-[#022E75] w-40 h-12 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-blue-600 text-white">
-                <a href="https://wa.me/2348096999444">CHECK AVAILABILITY</a>
-              </button>
+            <div className="">
+              <i className="md:text-3xl text-lg justify-center flex md:pt-10 pt-3">
+                We are the perfect host for your weddings. We can make your
+                ceremonies remain timeless by redefining them with unprecedented
+                glitz and glamour. Our meeting rooms are equipped with the
+                latest audio-visual technology , fast and secured Wi-Fi and so
+                much more. Place a call with us today to explore your options.
+              </i>
+              <img className="md:pt-10 pt-2" src={pic5} alt="" />
             </div>
           </div>
-          <div className="w-[50%] grid grid-cols-2 gap-1">
+          <div className="md:w-[50%] grid grid-cols-2 gap-1 ">
             <img className="w-[20rem]" src={pic1} alt="" />
             <img className="w-[20rem]" src={pic2} alt="" />
             <img className="w-[20rem]" src={pic3} alt="" />
             <img className="w-[20rem]" src={pic4} alt="" />
           </div>
+        </div>
+        <div className="justify-center flex md:pt-5 pt-2">
+          <button className="hover:bg-[#022E75] w-40 md:h-12 h-8 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-blue-600 text-white">
+            <a href="https://wa.me/2348096999444">CHECK AVAILABILITY</a>
+          </button>
         </div>
       </div>
     </div>

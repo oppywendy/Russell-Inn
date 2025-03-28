@@ -2,14 +2,14 @@ import { FaStar } from "react-icons/fa";
 
 const Testimonials = () => {
   return (
-    <div className="mt-10">
+    <div className="mt-10 w-full">
       <div>
-        <h1 className="font-bold text-5xl text-center text-[#022E75] pt-10">
+        <h1 className="font-bold md:text-5xl text-3xl text-center text-[#022E75] pt-10">
           TESTIMONIALS
         </h1>
         <div className="w-full justify-center items-center flex">
-          <div className="grid grid-cols-2 gap-5">
-            <div className="w-[25rem] h-[12rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+          <div className="grid md:grid-cols-2 gap-5">
+            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -27,7 +27,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">Lawrence Peter</p>
               </div>
             </div>
-            <div className="w-[25rem] h-[12rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -45,7 +45,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">Emike Etu</p>
               </div>
             </div>
-            <div className="w-[25rem] h-[12rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -61,7 +61,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">David Peterside</p>
               </div>
             </div>
-            <div className="w-[25rem] h-[12rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -80,7 +80,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">Zenani Chinaza Okoh</p>
               </div>
             </div>
-            <div className="w-[25rem] h-[12rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -99,7 +99,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">Emmanuel Ekpenyong</p>
               </div>
             </div>
-            <div className="w-[25rem] h-[12rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />

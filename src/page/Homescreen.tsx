@@ -1,6 +1,5 @@
 import Contact from "../component/Contact";
 import Event from "../component/Event";
-import Footer from "../component/Footer";
 import Gallery from "../component/Gallery";
 import Header from "../component/Header";
 import Hero from "../component/Hero";
@@ -19,7 +18,6 @@ const Homescreen = () => {
       <Event />
       <Testimonials />
       <Contact />
-      <Footer />
     </div>
   );
 };

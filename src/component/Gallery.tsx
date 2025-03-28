@@ -9,12 +9,12 @@ const Gallery = () => {
   return (
     <div className="m-10">
       <div>
-        <h1 className="font-bold text-5xl text-center text-[#022E75] pt-10">
+        <h1 className="font-bold md:text-5xl text-3xl text-center text-[#022E75] pt-10">
           OUR GALLERY
         </h1>
       </div>
       <div className="w-full items-center justify-center flex mt-5">
-        <div className="grid grid-cols-3 gap-2">
+        <div className="grid md:grid-cols-3 gap-2">
           <img className="w-[25rem] h-[18rem]" src={pic1} alt="" />
           <img className="w-[25rem] h-[18rem]" src={pic2} alt="" />
           <img className="w-[25rem] h-[18rem]" src={pic3} alt="" />
@@ -23,8 +23,8 @@ const Gallery = () => {
           <img className="w-[25rem] h-[18rem]" src={pic6} alt="" />
         </div>
       </div>
-      <div className="justify-center flex mt-5">
-        <button className="hover:bg-[#022E75] w-40 h-12 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-blue-600 text-white">
+      <div className="justify-center flex md:mt-5 mt-2">
+        <button className="hover:bg-[#022E75] md:w-40 w-28 md:h-12 h-7 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-blue-600 text-white">
           VIEW MORE
         </button>
       </div>

@@ -2,17 +2,17 @@ import pic from "../assets/lounge6.png";
 
 const Landing = () => {
   return (
-    <div className="w-full h-screen">
+    <div className="w-full md:h-screen pt-20 md:pt-0">
       <div
-        className="bg-cover bg-center md:h-screen h-[55h] w-full bg-blue-900 bg-opacity-50 bg-blend-overlay"
+        className="bg-cover bg-center md:h-screen h-[40vh] w-full bg-blue-900 bg-opacity-50 bg-blend-overlay"
         style={{ backgroundImage: `url(${pic})` }}
       >
         <div className="w-[50%] h-[80%] items-center justify-center flex text-white">
-          <div>
-            <h1 className="text-3xl">WELCOME TO</h1>
-            <h1 className="text-8xl">RUSSELL INN</h1>
-            <h1 className="text-5xl">HOTEL</h1>
-            <p className="text-lg">Making ordinary extraordinary</p>
+          <div className="pl-5 md:pl-0">
+            <h1 className="md:text-3xl text-xl">WELCOME TO</h1>
+            <h1 className="md:text-8xl text-3xl">RUSSELL INN</h1>
+            <h1 className="md:text-5xl text-2xl">HOTEL</h1>
+            <p className="md:text-lg text-lg">Making ordinary extraordinary</p>
           </div>
         </div>
         <div className=" flex justify-center h-[20%]">
