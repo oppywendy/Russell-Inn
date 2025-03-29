@@ -22,7 +22,7 @@ const Footer = () => {
                 Address: 141d Gbagada Oworonshoki Expressway Phase 1 Lagos
               </p>
               <p className="pt-1 font-serif md:text-xl">
-                Call us: +2348106994357
+                Call us: +2349157755555
               </p>
               <p className="pt-1 font-serif md:text-xl">
                 Whatsapp: +2348096999444

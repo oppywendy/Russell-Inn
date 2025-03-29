@@ -27,7 +27,7 @@ const Contact = () => {
                   <div className="flex gap-5 items-center pt-5">
                     <PiPhoneCall size={40} />
                     <p className="font-mono md:text-2xl text-lg">
-                      +2348106994357
+                      +2349157755555
                     </p>
                   </div>
                   <div className="flex gap-5 items-center pt-5">

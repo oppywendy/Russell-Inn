@@ -24,7 +24,7 @@ const Testimonials = () => {
                   ideal for exploring the area, and the staff were incredibly
                   helpful with recommendations."
                 </p>
-                <p className="font-semibold h-[10%]">Lawrence Peter</p>
+                <p className="font-semibold h-[10%]">Lawrence P</p>
               </div>
             </div>
             <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
@@ -42,7 +42,7 @@ const Testimonials = () => {
                   cocktails, delicious food and a very cozy ambience! I will
                   definitely be returning"
                 </p>
-                <p className="font-semibold h-[10%]">Emike Etu</p>
+                <p className="font-semibold h-[10%]">Emike E</p>
               </div>
             </div>
             <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
@@ -58,7 +58,7 @@ const Testimonials = () => {
                   "World class experience. I loved the outside bar!! 10/10 place
                   - would surely recommend"
                 </p>
-                <p className="font-semibold h-[10%]">David Peterside</p>
+                <p className="font-semibold h-[10%]">David P</p>
               </div>
             </div>
             <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
@@ -77,7 +77,7 @@ const Testimonials = () => {
                   don’t give hotel reviews but I had to give a review on this
                   one cos they really surprised me. I loved every minute there."
                 </p>
-                <p className="font-semibold h-[10%]">Zenani Chinaza Okoh</p>
+                <p className="font-semibold h-[10%]">Zenani C</p>
               </div>
             </div>
             <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
@@ -96,7 +96,7 @@ const Testimonials = () => {
                   although it’s a bit tricky to locate so contact them for
                   directions."
                 </p>
-                <p className="font-semibold h-[10%]">Emmanuel Ekpenyong</p>
+                <p className="font-semibold h-[10%]">Emmanuel E</p>
               </div>
             </div>
             <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
@@ -112,7 +112,7 @@ const Testimonials = () => {
                   "Lovely ambience, lovely staff, good food, good services. Love
                   it!"
                 </p>
-                <p className="font-semibold h-[10%]">Judy Erusiafe</p>
+                <p className="font-semibold h-[10%]">Judy E</p>
               </div>
             </div>
           </div>
