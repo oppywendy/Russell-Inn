@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import logo from "../assets/logo.png";
 
 const Header = () => {
@@ -9,11 +10,18 @@ const Header = () => {
         </div>
         <div className="justify-end items-end flex md:text-xl text-sm">
           <ul className="flex md:gap-5 gap-2">
-            <li className="hover:text-gray-400 cursor-pointer">Home</li>
-            <li className="hover:text-gray-400 cursor-pointer">Facilities</li>
-            <li className="hover:text-gray-400 cursor-pointer">Rooms</li>
-            {/* <li className="hover:text-gray-400 cursor-pointer">Contact us</li> */}
-            <li className="hover:text-gray-400 cursor-pointer">Gallery</li>
+            <li className="hover:text-gray-400 cursor-pointer">
+              <a href="/">Home</a>
+            </li>
+            <li className="hover:text-gray-400 cursor-pointer">
+              <Link to="facilities">Facilities</Link>
+            </li>
+            <li className="hover:text-gray-400 cursor-pointer">
+              <Link to="rooms">Rooms</Link>
+            </li>
+            <li className="hover:text-gray-400 cursor-pointer">
+              <Link to="gallery">Gallery</Link>
+            </li>
           </ul>
         </div>
       </div>

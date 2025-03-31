@@ -8,7 +8,7 @@ const Hero = () => {
         <h1 className="md:text-5xl text-3xl text-center font-bold md:mt-10 mt-2 text-[#022E75] pt-10">
           OUR ROOMS
         </h1>
-        <p className="text-xl font-serif pt-5 ml-5">
+        <p>
           Luxurious, exquisite and comfortable are the perfect words that
           describe our rooms
         </p>
