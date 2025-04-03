@@ -14,7 +14,7 @@ const Room = () => {
           experiences, creating memorable stays, and building lasting
           relationships with our guests,partners, and the local community
         </p>
-        <div className="pt-10">
+        <div className="pt-16">
           <div className="w-full border border-black">
             <div className="relative w-full justify-center items-center flex">
               <img src={pic1} alt="" />
@@ -35,7 +35,7 @@ const Room = () => {
             </div>
           </div>
         </div>
-        <div className="pt-16">
+        <div className="pt-36">
           <div className="w-full border border-black">
             <div className="relative w-full justify-center items-center flex">
               <img src={pic2} alt="" />
