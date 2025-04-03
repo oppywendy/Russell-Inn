@@ -14,7 +14,7 @@ import pic7 from "../assets/room2.png";
 import pic8 from "../assets/room3.png";
 import vid2 from "../assets/video2.webm";
 import pic9 from "../assets/lounge2.png";
-import pic10 from "../assets/food6.png";
+import pic10 from "../assets/customer7.png";
 import pic11 from "../assets/customer2.png";
 import pic12 from "../assets/customer3.png";
 import pic13 from "../assets/lounge3.png";
@@ -25,15 +25,18 @@ import pic17 from "../assets/food1.png";
 import pic18 from "../assets/food2.png";
 import pic19 from "../assets/WhatsApp Image 2025-03-26 at 11.21.58_6af15d99.jpg";
 import pic20 from "../assets/DNZR0033.png";
+import pic21 from "../assets/customer4.png";
+import pic22 from "../assets/customer5.png";
+import pic23 from "../assets/customer6.png";
 
 const Photos = () => {
   return (
-    <div className="w-full pt-10 mb-5 justify-center items-center flex">
+    <div className="w-full pt-16 md:pb-20 pb-16 justify-center items-center flex font-roboto bg-[#F8F8F8]">
       <div className="w-[90%]">
-        <h1 className="md:text-5xl text-3xl text-center font-bold md:mt-10 mt-2 text-[#022E75] pt-10">
+        <h1 className="md:text-5xl text-3xl text-center font-bold text-[#022E75] pt-10">
           OUR GALLERY
         </h1>
-        <div className="grid md:grid-cols-3 gap-5 pt-5">
+        <div className="grid md:grid-cols-3 gap-5 justify-center items-center pt-12">
           <video
             className="w-[25rem] h-[18rem]"
             autoPlay
@@ -93,7 +96,7 @@ const Photos = () => {
           ></video>
           <img className="w-[25rem] h-[30rem]" src={pic11} alt="" />
           <img className="w-[25rem] h-[30rem]" src={pic12} alt="" />
-          <img className="w-[25rem] h-[30rem]" src={pic13} alt="" />
+          <img className="w-[25rem] h-[30rem]" src={pic21} alt="" />
           <img className="w-[25rem] h-[30rem]" src={pic14} alt="" />
           <video
             className="w-[25rem] h-[30rem]"
@@ -117,6 +120,9 @@ const Photos = () => {
           ></video>
           <img className="w-[25rem] h-[30rem]" src={pic19} alt="" />
           <img className="w-[25rem] h-[30rem]" src={pic20} alt="" />
+          <img className="w-[25rem] h-[30rem]" src={pic13} alt="" />
+          <img className="w-[25rem] h-[30rem]" src={pic22} alt="" />
+          <img className="w-[25rem] h-[30rem]" src={pic23} alt="" />
         </div>
       </div>
     </div>

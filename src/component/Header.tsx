@@ -3,7 +3,7 @@ import logo from "../assets/logo.png";
 
 const Header = () => {
   return (
-    <div className="w-full h-[12vh] items-center justify-center bg-[#FFFFFF] flex fixed z-50">
+    <div className="w-full h-[12vh] items-center justify-center bg-[#FFFFFF] flex fixed z-50 font-roboto">
       <div className="w-[98%] h-[90%] justify-between items-center flex">
         <div>
           <img className="w-[8rem]" src={logo} alt="" />
