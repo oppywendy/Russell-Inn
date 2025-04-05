@@ -40,6 +40,7 @@ const Photos = () => {
           <video
             className="w-[25rem] h-[18rem]"
             autoPlay
+            playsInline
             loop
             controls
             muted
