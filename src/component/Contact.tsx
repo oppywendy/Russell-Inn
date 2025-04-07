@@ -39,7 +39,13 @@ const Contact = () => {
                     </p>
                   </div>
                   <div className="flex gap-5 items-center pt-5">
-                    <FaInstagramSquare size={40} />
+                    <a href="https://www.instagram.com/_russellinn_?igsh=ZGVkM2I2M2VhZ3JI">
+                      <FaInstagramSquare
+                        size={40}
+                        color="red"
+                        className="cursor-pointer"
+                      />
+                    </a>
                     <p className=" md:text-2xl text-lg">_russellinn_</p>
                   </div>
                 </div>
