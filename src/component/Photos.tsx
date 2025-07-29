@@ -19,7 +19,7 @@ import pic11 from "../assets/customer2.png";
 import pic12 from "../assets/customer3.png";
 import pic13 from "../assets/lounge3.png";
 import pic14 from "../assets/reception.png";
-import pic15 from "../assets/lounge7.png";
+import pic15 from "../assets/snooker1.jpg";
 import pic16 from "../assets/food9.png";
 import pic17 from "../assets/food1.png";
 import pic18 from "../assets/food2.png";
@@ -28,6 +28,9 @@ import pic20 from "../assets/DNZR0033.png";
 import pic21 from "../assets/customer4.png";
 import pic22 from "../assets/customer5.png";
 import pic23 from "../assets/customer6.png";
+import pic24 from "../assets/snooker3.jpg";
+import vid9 from "../assets/snooker5.mp4";
+import pic25 from "../assets/snooker4.jpg";
 
 const Photos = () => {
   return (
@@ -58,7 +61,7 @@ const Photos = () => {
             muted
             src={vid4}
           ></video>
-          <img className="w-[25rem] h-[18rem]" src={pic5} alt="" />
+          <img className="w-[25rem] h-[18rem]" src={pic24} alt="" />
           <img className="w-[25rem] h-[18rem]" src={pic6} alt="" />
           <img className="w-[25rem] h-[18rem]" src={pic7} alt="" />
           <img className="w-[25rem] h-[18rem]" src={pic8} alt="" />
@@ -100,10 +103,21 @@ const Photos = () => {
             muted
             src={vid1}
           ></video>
+          <img className="w-[25rem] h-[18rem]" src={pic25} alt="" />
+          <video
+            className="w-[25rem] h-[18rem]"
+            autoPlay
+            playsInline
+            loop
+            controls
+            muted
+            src={vid9}
+          ></video>
+          <img className="w-[25rem] h-[18rem]" src={pic5} alt="" />
           <img className="w-[25rem] h-[30rem]" src={pic11} alt="" />
           <img className="w-[25rem] h-[30rem]" src={pic12} alt="" />
           <img className="w-[25rem] h-[30rem]" src={pic21} alt="" />
-          <img className="w-[25rem] h-[30rem]" src={pic14} alt="" />
+          <img className="w-[25rem] h-[30rem]" src={pic15} alt="" />
           <video
             className="w-[25rem] h-[30rem]"
             autoPlay
@@ -113,7 +127,7 @@ const Photos = () => {
             muted
             src={vid7}
           ></video>
-          <img className="w-[25rem] h-[30rem]" src={pic15} alt="" />
+          <img className="w-[25rem] h-[30rem]" src={pic14} alt="" />
           <img className="w-[25rem] h-[30rem]" src={pic16} alt="" />
           <img className="w-[25rem] h-[30rem]" src={pic17} alt="" />
           <img className="w-[25rem] h-[30rem]" src={pic18} alt="" />
