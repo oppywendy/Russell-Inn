@@ -5,7 +5,7 @@ import { PiPhoneCall } from "react-icons/pi";
 
 const Contact = () => {
   return (
-    <div className="md:pt-24 pt-16 md:pb-20 pb-16 bg-[#ddd] font-roboto">
+    <div className="md:pt-24 pt-16 md:pb-20 bg-[#ddd] font-roboto">
       <div>
         <h1 className="font-bold md:text-5xl text-3xl text-center text-[#022E75]">
           CONTACT US

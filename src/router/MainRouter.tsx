@@ -4,6 +4,7 @@ import Layout from "../block/Layout";
 import Photos from "../component/Photos";
 import Facilities from "../component/Facilities";
 import Room from "../component/Room";
+import Checkout from "../component/Checkout";
 
 export const MainRouter = createBrowserRouter([
   {
@@ -28,6 +29,11 @@ export const MainRouter = createBrowserRouter([
       {
         path: "/rooms",
         element: <Room />,
+      },
+
+      {
+        path: "/checkout",
+        element: <Checkout />,
       },
     ],
   },

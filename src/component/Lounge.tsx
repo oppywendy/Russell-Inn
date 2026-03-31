@@ -1,7 +1,4 @@
 import pic1 from "../assets/lounge.png";
-import pic2 from "../assets/food7.png";
-import pic4 from "../assets/drink6.png";
-import pic5 from "../assets/drink7.png";
 import pic7 from "../assets/food1.png";
 import pic8 from "../assets/food2.png";
 import pic9 from "../assets/food3.png";
@@ -34,16 +31,37 @@ const Lounge = () => {
         </div>
         <div className="w-full items-center justify-center flex pt-12">
           <div className="w-[90%]">
-            <div className="grid md:grid-cols-3 md:gap-2 gap-1 justify-center items-center">
-              <img className="w-[400px] h-[300px]" src={pic1} alt="" />
-              <img className="w-[400px] h-[300px]" src={pic2} alt="" />
-              <img className="w-[400px] h-[300px]" src={pic12} alt="" />
-              <img className="w-[400px]" src={pic8} alt="" />
-              <img className="w-[400px]" src={pic9} alt="" />
-              <img className="w-[400px]" src={pic7} alt="" />
-              <img className="w-[400px]" src={pic10} alt="" />
-              <img className="w-[400px]" src={pic5} alt="" />
-              <img className="w-[400px]" src={pic4} alt="" />
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-3 md:gap-2 gap-1 justify-center items-center">
+              <img
+                className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
+                src={pic1}
+                alt=""
+              />
+              <img
+                className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
+                src={pic12}
+                alt=""
+              />
+              <img
+                className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
+                src={pic8}
+                alt=""
+              />
+              <img
+                className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
+                src={pic9}
+                alt=""
+              />
+              <img
+                className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
+                src={pic7}
+                alt=""
+              />
+              <img
+                className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
+                src={pic10}
+                alt=""
+              />
             </div>
           </div>
         </div>

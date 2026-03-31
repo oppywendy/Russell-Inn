@@ -8,8 +8,8 @@ const Testimonials = () => {
           TESTIMONIALS
         </h1>
         <div className="w-full justify-center items-center flex md:pt-12 pt-10">
-          <div className="grid md:grid-cols-2 gap-5">
-            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+          <div className="grid md:grid-cols-2 gap-5 md:px-10">
+            <div className="md:w-[90%] lg:w-[25rem] w-[20rem] lg:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -27,7 +27,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">Lawrence P</p>
               </div>
             </div>
-            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[90%] lg:w-[25rem] w-[20rem] lg:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -45,7 +45,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">Emike E</p>
               </div>
             </div>
-            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[90%] lg:w-[25rem] w-[20rem] lg:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -61,7 +61,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">David P</p>
               </div>
             </div>
-            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[90%] lg:w-[25rem] w-[20rem] lg:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -79,7 +79,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">Zenani C</p>
               </div>
             </div>
-            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[90%] lg:w-[25rem] w-[20rem] lg:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />
@@ -98,7 +98,7 @@ const Testimonials = () => {
                 <p className="font-semibold h-[10%]">Emmanuel E</p>
               </div>
             </div>
-            <div className="md:w-[25rem] w-[20rem] md:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
+            <div className="md:w-[90%] lg:w-[25rem] w-[20rem] lg:h-[12rem] h-[18rem] border rounded-2xl bg-blue-300 justify-center items-center flex mt-5">
               <div className="w-[90%] h-[90%]">
                 <div className="flex h-[10%]">
                   <FaStar color="gold" />

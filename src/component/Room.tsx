@@ -1,6 +1,7 @@
 import { TbCurrencyNaira } from "react-icons/tb";
 import pic1 from "../assets/room1.png";
 import pic2 from "../assets/room2.png";
+import { Link } from "react-router-dom";
 
 const Room = () => {
   return (
@@ -17,7 +18,7 @@ const Room = () => {
         <div className="pt-16">
           <div className="w-full border border-black">
             <div className="relative w-full justify-center items-center flex">
-              <img src={pic1} alt="" />
+              <img src={pic1} alt="" className="w-full" />
               <div className="absolute w-full bottom-0 md:h-[12%] h-[15%] justify-center items-center flex md:text-4xl font-bold bg-[#022E75] text-white">
                 <p>STANDARD ROOM</p>
               </div>
@@ -29,7 +30,7 @@ const Room = () => {
               </div>
               <div className=" flex justify-center items-center W-[50%]">
                 <button className="hover:bg-[#022E75] md:w-40 w-36 md:h-12 h-10 rounded-lg justify-center items-center flex cursor-pointer bg-blue-600 text-white">
-                  <a href="https://wa.me/2348096999444">BOOK NOW</a>
+                  <Link to="/checkout">BOOK NOW</Link>
                 </button>
               </div>
             </div>
@@ -38,7 +39,7 @@ const Room = () => {
         <div className="pt-36">
           <div className="w-full border border-black">
             <div className="relative w-full justify-center items-center flex">
-              <img src={pic2} alt="" />
+              <img src={pic2} alt="" className="w-full" />
               <div className="absolute w-full bottom-0 md:h-[12%] h-[15%] justify-center items-center flex md:text-4xl font-bold bg-[#022E75] text-white">
                 <p>EXECUTIVE ROOM</p>
               </div>
@@ -50,7 +51,7 @@ const Room = () => {
               </div>
               <div className=" flex justify-center items-center W-[50%]">
                 <button className="hover:bg-[#022E75] md:w-40 w-36 md:h-12 h-10 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-blue-600 text-white">
-                  <a href="https://wa.me/2348096999444">BOOK NOW</a>
+                  <Link to="/checkout">BOOK NOW</Link>
                 </button>
               </div>
             </div>
