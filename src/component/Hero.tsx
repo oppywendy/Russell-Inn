@@ -28,12 +28,12 @@ const Hero = () => {
                 </div>
               </div>
               <div className="md:w-[50%] w-full">
-                <img src={room1} alt="" />
+                <img src={room1} loading="lazy" alt="" />
               </div>
             </div>
             <div className="w-full justify-center items-center flex pt-14 md:pt-0 flex-col md:flex-row">
               <div className="md:w-[50%] w-full">
-                <img src={room2} alt="" />
+                <img src={room2} loading="lazy" alt="" />
               </div>
               <div className="md:w-[50%] w-full md:pl-10">
                 <h1 className="md:text-4xl text-2xl font-semibold pt-5 md:pt-0">

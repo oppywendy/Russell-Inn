@@ -18,25 +18,25 @@ const Facilities = () => {
           facilities will help you enjoy the best of all.
         </p>
         <div className="relative justify-center items-center flex pt-16">
-          <img src={pic} alt="" />
+          <img src={pic} loading="lazy" alt="" />
           <div className="absolute bottom-0 bg-white items-center w-[40%] h-[7%] justify-center flex text-center md:text-4xl text-[#022E75]">
             LOUNGE
           </div>
         </div>
         <div className="relative justify-center items-center flex pt-32">
-          <img src={pic2} alt="" />
+          <img src={pic2} loading="lazy" alt="" />
           <div className="absolute bottom-0 bg-white items-center w-[40%] h-[7%] justify-center flex text-center md:text-4xl text-[#022E75]">
             RESTAURANT
           </div>
         </div>
         <div className="relative justify-center items-center flex pt-32">
-          <img src={pic4} alt="" />
+          <img src={pic4} loading="lazy" alt="" />
           <div className="absolute bottom-0 bg-white items-center w-[40%] h-[7%] justify-center flex text-center md:text-4xl text-[#022E75]">
             OUTDOOR LOUNGE
           </div>
         </div>
         <div className="relative justify-center items-center flex pt-32 md:pb-10">
-          <img src={pic3} alt="" />
+          <img src={pic3} loading="lazy" alt="" />
           <div className="absolute bottom-0 bg-white items-center w-[40%] h-[7%] justify-center flex text-center md:text-4xl text-[#022E75]">
             LAUNDRY
           </div>

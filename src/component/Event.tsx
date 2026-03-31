@@ -24,14 +24,19 @@ const Event = () => {
                 latest audio-visual technology , fast and secured Wi-Fi and so
                 much more. Place a call with us today to explore your options.
               </i>
-              <img className="md:pt-32 pt-10" src={pic5} alt="" />
+              <img
+                className="md:pt-32 pt-10"
+                src={pic5}
+                loading="lazy"
+                alt=""
+              />
             </div>
           </div>
           <div className="md:w-[50%] grid grid-cols-2 gap-1 ">
-            <img className="w-[20rem]" src={pic1} alt="" />
-            <img className="w-[20rem]" src={pic2} alt="" />
-            <img className="w-[20rem]" src={pic3} alt="" />
-            <img className="w-[20rem]" src={pic4} alt="" />
+            <img className="w-[20rem]" src={pic1} loading="lazy" alt="" />
+            <img className="w-[20rem]" src={pic2} loading="lazy" alt="" />
+            <img className="w-[20rem]" src={pic3} loading="lazy" alt="" />
+            <img className="w-[20rem]" src={pic4} loading="lazy" alt="" />
           </div>
         </div>
         <div className="justify-center flex md:pt-14 pt-10">

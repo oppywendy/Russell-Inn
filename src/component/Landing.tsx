@@ -10,6 +10,7 @@ const Landing = () => {
           loop
           muted
           playsInline
+          preload="metadata"
           className="absolute top-0 left-0 w-full h-full object-cover z-0"
         >
           <source src={pic} type="video/webm" />

@@ -35,31 +35,37 @@ const Lounge = () => {
               <img
                 className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
                 src={pic1}
+                loading="lazy"
                 alt=""
               />
               <img
                 className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
                 src={pic12}
+                loading="lazy"
                 alt=""
               />
               <img
                 className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
                 src={pic8}
+                loading="lazy"
                 alt=""
               />
               <img
                 className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
                 src={pic9}
+                loading="lazy"
                 alt=""
               />
               <img
                 className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
                 src={pic7}
+                loading="lazy"
                 alt=""
               />
               <img
                 className="md:w-[400px] md:h-[400px] w-[200px] h-[220px] rounded-lg"
                 src={pic10}
+                loading="lazy"
                 alt=""
               />
             </div>

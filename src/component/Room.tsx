@@ -18,7 +18,7 @@ const Room = () => {
         <div className="pt-16">
           <div className="w-full border border-black">
             <div className="relative w-full justify-center items-center flex">
-              <img src={pic1} alt="" className="w-full" />
+              <img src={pic1} loading="lazy" alt="" className="w-full" />
               <div className="absolute w-full bottom-0 md:h-[12%] h-[15%] justify-center items-center flex md:text-4xl font-bold bg-[#022E75] text-white">
                 <p>STANDARD ROOM</p>
               </div>
@@ -39,7 +39,7 @@ const Room = () => {
         <div className="pt-36">
           <div className="w-full border border-black">
             <div className="relative w-full justify-center items-center flex">
-              <img src={pic2} alt="" className="w-full" />
+              <img src={pic2} loading="lazy" alt="" className="w-full" />
               <div className="absolute w-full bottom-0 md:h-[12%] h-[15%] justify-center items-center flex md:text-4xl font-bold bg-[#022E75] text-white">
                 <p>EXECUTIVE ROOM</p>
               </div>
