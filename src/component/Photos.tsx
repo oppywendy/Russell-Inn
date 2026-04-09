@@ -5,6 +5,9 @@ import vid5 from "../assets/video11.webm";
 import vid6 from "../assets/video6.webm";
 import vid7 from "../assets/video9.webm";
 import vid8 from "../assets/video10.webm";
+import vid2 from "../assets/video2.webm";
+import vid9 from "../assets/snooker5.mp4";
+
 import pic1 from "../assets/lounge1.png";
 import pic2 from "../assets/lounge6.png";
 import pic3 from "../assets/lounge.png";
@@ -12,7 +15,6 @@ import pic5 from "../assets/customer1.png";
 import pic6 from "../assets/room1.png";
 import pic7 from "../assets/room2.png";
 import pic8 from "../assets/room3.png";
-import vid2 from "../assets/video2.webm";
 import pic9 from "../assets/lounge2.png";
 import pic10 from "../assets/customer7.png";
 import pic11 from "../assets/customer2.png";
@@ -29,10 +31,9 @@ import pic21 from "../assets/customer4.png";
 import pic22 from "../assets/customer5.png";
 import pic23 from "../assets/customer6.png";
 import pic24 from "../assets/snooker3.jpg";
-import vid9 from "../assets/snooker5.mp4";
 import pic25 from "../assets/snooker4.jpg";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { AnimatePresence, motion } from "framer-motion";
 
 const photos = [
@@ -80,6 +81,8 @@ const Photos = () => {
   const [touchStart, setTouchStart] = useState<number | null>(null);
   const [touchEnd, setTouchEnd] = useState<number | null>(null);
 
+  const videoRef = useRef<HTMLVideoElement | null>(null);
+
   const minSwipeDistance = 50;
 
   // Keyboard navigation
@@ -107,6 +110,13 @@ const Photos = () => {
   // Lock scroll
   useEffect(() => {
     document.body.style.overflow = selectedImage !== null ? "hidden" : "auto";
+  }, [selectedImage]);
+
+  // Force video play on open (mobile fix)
+  useEffect(() => {
+    if (videoRef.current) {
+      videoRef.current.play().catch(() => {});
+    }
   }, [selectedImage]);
 
   // Swipe handlers
@@ -164,7 +174,7 @@ const Photos = () => {
                   muted
                   loop
                   playsInline
-                  preload="metadata"
+                  preload="auto"
                   onMouseEnter={(e) => e.currentTarget.play()}
                   onMouseLeave={(e) => {
                     e.currentTarget.pause();
@@ -223,9 +233,13 @@ const Photos = () => {
                   />
                 ) : (
                   <motion.video
+                    ref={videoRef}
                     src={photos[selectedImage].src}
                     autoPlay
+                    muted
+                    playsInline
                     controls
+                    preload="auto"
                     className="w-screen h-screen object-contain"
                     onTouchStart={onTouchStart}
                     onTouchMove={onTouchMove}

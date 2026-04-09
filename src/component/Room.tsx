@@ -26,7 +26,7 @@ const Room = () => {
             <div className=" items-center justify-around flex w-[100%] md:h-[10rem] h-[5rem]">
               <div className="flex W-[50%] justify-center items-center">
                 <TbCurrencyNaira size={35} />
-                <p className="font-bold md:text-3xl text-2xl">30,000</p>
+                <p className="font-bold md:text-3xl text-2xl">35,000</p>
               </div>
               <div className=" flex justify-center items-center W-[50%]">
                 <button className="hover:bg-[#022E75] md:w-40 w-36 md:h-12 h-10 rounded-lg justify-center items-center flex cursor-pointer bg-blue-600 text-white">
@@ -47,7 +47,7 @@ const Room = () => {
             <div className=" items-center justify-around flex w-[100%] md:h-[10rem] h-[5rem]">
               <div className="flex W-[50%] justify-center items-center">
                 <TbCurrencyNaira size={35} />
-                <p className="font-bold md:text-3xl text-2xl">40,000</p>
+                <p className="font-bold md:text-3xl text-2xl">45,000</p>
               </div>
               <div className=" flex justify-center items-center W-[50%]">
                 <button className="hover:bg-[#022E75] md:w-40 w-36 md:h-12 h-10 rounded-lg border border-black justify-center items-center flex cursor-pointer bg-blue-600 text-white">

@@ -8,11 +8,11 @@ const Checkout = () => {
     firstName: "",
     lastName: "",
     email: "",
-    countrty: "",
-    address1: "",
-    address2: "",
+    country: "",
+    address: "",
     city: "",
     zip: "",
+    price: "",
   });
 
   const handleChange = (e: React.ChangeEvent<HTMLInputElement>) => {
@@ -21,21 +21,23 @@ const Checkout = () => {
   };
 
   const sendToWhatsapp = () => {
-    const phoneNumber = "2348096999444";
+    const phoneNumber = "2349021345423";
+    // const phoneNumber = "2348096999444";
 
     const message = `*New Booking*
 
     Name: ${data.firstName} ${data.lastName}
     Email: ${data.email}
 
-    Address
-    Country: ${data.countrty}
-    Address 1: ${data.address1}
-    Address 2: ${data.address2}
+    Address :
+    Country: ${data.country}
+    Address: ${data.address}
     City: ${data.city}
     ZIP: ${data.zip}
+    
 
-    Amount: NGN 30,000`;
+
+    Amount: NGN ${data.price}`;
     const url = `https://wa.me/${phoneNumber}?text=${encodeURIComponent(message)}`;
     window.open(url, "_blank");
   };
@@ -84,17 +86,17 @@ const Checkout = () => {
           />
           <div className="grid lg:grid-cols-2 gap-5 pt-10">
             <input
-              name="address1"
-              placeholder="Address 1"
+              name="address"
+              placeholder="Address"
               onChange={handleChange}
               className="w-full lg:w-[80%] h-12 border border-black px-5"
             />
-            <input
+            {/* <input
               name="address2"
               placeholder="Address 2"
               onChange={handleChange}
               className="w-full lg:w-[80%] h-12 border border-black px-5"
-            />
+            /> */}
             <input
               name="city"
               placeholder="City"
@@ -116,11 +118,22 @@ const Checkout = () => {
             We use secure transmission and encrypted storage to protect your
             personal information.
           </p>
-          <p className="font-semibold pt-5">NGN 30,000</p>
+          {/* <p className="font-semibold pt-5">NGN 30,000</p> */}
           <div className="flex gap-5 pt-5 pb-5 opacity-60">
             <img src={visa} alt="" className="w-10 h-7" />
             <img src={master} alt="" className="w-10 h-7" />
           </div>
+          <select
+            value={data.price}
+            onChange={(e) =>
+              setData((prev) => ({ ...prev, price: e.target.value }))
+            }
+            className="w-40 h-12 py-1 border border-gray-300 bg-blue-400 text-white rounded-md text-sm text-center my-3"
+          >
+            <option value="">Select Room</option>
+            <option value="35,000">Standard / 35,000</option>
+            <option value="45,000">Deluxe / 45,000</option>
+          </select>
         </form>
         <div>
           <div className="border mt-10 lg:mt-16 p-5">
