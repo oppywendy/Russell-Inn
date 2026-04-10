@@ -21,8 +21,7 @@ const Checkout = () => {
   };
 
   const sendToWhatsapp = () => {
-    const phoneNumber = "2349021345423";
-    // const phoneNumber = "2348096999444";
+    const phoneNumber = "2348096999444";
 
     const message = `*New Booking*
 
